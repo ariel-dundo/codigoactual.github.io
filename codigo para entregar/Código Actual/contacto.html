@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title>Contacto</title>
+</head>
+<body>
+	<!-- <div id="cabecera">
+		<a href="index.html">
+			<button id="boton1">
+				Home
+			</button>	
+		</a>
+	</div> -->
+		<div id="error"> </div>
+	<section class="seccion" >
+
+
+		<form class="form" action="#" method="#">
+			
+			<div id="datos">
+				<label for="campoNombre"> Nombre</label> 
+				<input id="campoNombre" type="text" name="nombre" autofocus>
+				<br>
+			
+				<label for="campoApellido"> Apellido</label> 
+				<input id="campoApellido" type="text" name="apellido">
+				<br>
+			
+				<label for="campoCorreo"> Correo de Contacto</label> 
+				<input id="campoCorreo" type="email" name="correo" required>
+				<br>
+
+				<label for="campoDesc"> Descripción</label> 
+				<textarea id="campoDesc" name="mensaje" rows="5" cols="40" placeholder="Digite el tema que desea abordar"></textarea>
+				<br>
+
+			</div>
+
+			<div >
+				<!-- El return permite retornar el valor que es enviado en el formulario, en este caso es false, para evitar que se vaya a otra actividad que no deseo. -->
+				<input id="enviar" onclick="return enviarFormulario();" type="submit">
+			</div>
+			
+		</form>
+		<!-- <a href="mailto:caceresgaston680@gmail.com">Mail</a> -->
+	</section>
+
+	<script type="text/javascript" src="js/form.js"></script>
+	
+	
+</body>
+</html>

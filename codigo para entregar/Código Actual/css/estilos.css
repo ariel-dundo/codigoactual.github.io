@@ -1,0 +1,312 @@
+@media (max-width: 930px){
+  body{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  }
+
+  /* Inicio Formulario */
+  .seccion{
+    margin:auto;
+    margin-left:  25%;
+  }
+  .form{
+
+    width: 100%;
+    padding: 10%;
+    border-color: blue;
+    border-radius: 10px;
+    background-color: orange;
+    margin-top: 35% ;
+        
+  }
+  #datos{
+    display: flex;
+    flex-direction: column;
+  }
+  #enviar{
+    border-color: darkgoldenrod;
+    margin-left: 70%;
+    color: orange;
+    background-color: red;
+    width: 30%;
+  }
+  label{
+    font-size: 150%;
+    color: #ffffff;
+  }
+  input{
+    font-size: 120%;
+  }
+  #error{
+
+    position: fixed;
+    margin: 10% 10% 20% 11%;
+  }
+
+/* Posiciona el formulario en la parte inferior del archivo Index.html */
+  iframe{
+
+    background-color: brown;
+    position: absolute;
+    margin-top:195%;
+    width: 100% ;
+    height:70%;
+}
+
+/* Final Formulario */
+
+#cabecera{
+  position: fixed;
+  width: 100%;
+  background-color: orange;
+  padding: 2%;
+  
+}
+
+#boton1{
+
+  margin-left: 80%;
+  color: #ffffff;
+  background-color: red;
+  border-color: red;
+  border-radius: 15px;
+  padding: 1%;
+}
+
+.container{
+  background-color: #117BA6;
+  display: flex;
+  flex-direction: column;
+  Padding: 20px;
+  width: 95%;
+  margin-top: 17%;
+
+}
+
+.container2{
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  Padding: 20px;
+  width: 95%;
+  margin-top: 5%;
+}
+img{
+  border-radius: 50%;
+  width: 25%;
+  height: 30%;
+}
+h2{
+  color: #ffffff;
+  font-family: sans-serif;
+  justify-content: 20%;
+}
+section h2:first-child{
+  border-bottom: 2px solid white;
+}
+section h2:first-child {
+  border-radius: 2px solid white;
+}
+ * {
+  color: black;
+}
+ h2 {text-transform:uppercase ;
+  letter-spacing:4px ;
+}
+ /*Lenguajes De programacion*/
+
+  .img-1 {
+    width: 86px;
+    cursor: pointer;
+  }
+
+  .img-1:hover {
+    /*border: #363844 solid 2px;*/
+    border-radius: 0px 17px 0px 17px;
+    opacity: 0.5;
+  }
+
+  .img-2 {
+    width: 86px;
+    margin-left: 27px;
+    cursor: pointer;
+  }
+
+  .img-2:hover {
+    /*border: #363844 solid 1px;*/
+    border-radius: 0px 17px 0px 17px;
+    opacity: 0.5;
+  }
+
+  .img-3 {
+    width: 153px;
+    height: 140;
+    cursor: pointer;
+  }
+
+  .img-3:hover {
+    /*border: #363844 solid 1px;*/
+    border-radius: 0px 17px 0px 17px;
+    opacity: 0.5;
+  }
+  
+}
+
+@media (min-width: 931px)
+{
+
+body{
+	display: flex;
+	flex-direction: row;
+  margin: 0;
+
+}
+/* CSS para el contacto */
+#cabecera{
+  position: fixed;
+  width: 100%;
+  background-color: orange;
+  padding: 2%;
+  margin-bottom: 7%;
+  
+}
+#boton1{
+
+  margin-left: 90%;
+  color: #ffffff;
+  background-color: red;
+  border-color: red;
+  border-radius: 15px;
+  padding: 1%;
+}
+
+/* Inicio Formulario */
+  .seccion{
+    margin:auto;
+    margin-left:  30%;
+  }
+  .form{
+
+    width: 120%;
+    padding: 10%;
+    border-color: blue;
+    border-radius: 10px;
+    background-color: orange;
+    margin-top: 35% ;
+        
+  }
+  #datos{
+    display: flex;
+    flex-direction: column;
+  }
+  #enviar{
+    border-color: darkgoldenrod;
+    margin-left: 70%;
+    color: orange;
+    background-color: red;
+    width: 30%;
+  }
+  label{
+    font-size: 150%;
+    color: #ffffff;
+  }
+  input{
+    font-size: 120%;
+  }
+  #error{
+
+    position: fixed;
+    margin: 10% 10% 20% 30%;
+  }
+  /* Posiciona el formulario en la parte inferior del archivo Index.html */
+  iframe{
+    background-color: brown;
+    position: absolute;
+    margin-top: 58.3%;
+    width: 100% ;
+    height: 100%;
+}
+
+/* Final Formulario */
+
+.container{
+	background-color: #117BA6;
+	display: flex;
+	flex-direction: column;
+	Padding: 25px;
+  margin-top: 5%;
+	width: 20%;
+
+}
+
+.container2{
+  margin-top: 5%;
+	background-color: lightcoral;
+	display: flex;
+	flex-direction: column;
+	Padding: 25px;
+	width: 80%;
+}
+
+
+
+img{
+  border-radius: 50%;
+  width: 95%;
+  height: 70%;
+}
+h2{
+	color: #ffffff;
+	font-family: sans-serif;
+	justify-content: 20%;
+}
+section h2:first-child{
+  border-bottom: 2px solid white;
+}
+section h2:first-child {
+  border-radius: 2px solid white;
+}
+ * {
+  color: black;
+}
+ h2 {text-transform:uppercase ;
+  letter-spacing:4px ;
+}
+ /*Lenguajes De programacion*/
+
+  .img-1 {
+    width: 86px;
+    cursor: pointer;
+  }
+
+  .img-1:hover {
+    /*border: #363844 solid 2px;*/
+    border-radius: 0px 17px 0px 17px;
+    opacity: 0.5;
+  }
+
+  .img-2 {
+    width: 86px;
+    margin-left: 27px;
+    cursor: pointer;
+  }
+
+  .img-2:hover {
+    /*border: #363844 solid 1px;*/
+    border-radius: 0px 17px 0px 17px;
+    opacity: 0.5;
+  }
+
+  .img-3 {
+    width: 153px;
+    height: 140;
+    cursor: pointer;
+  }
+
+  .img-3:hover {
+    /*border: #363844 solid 1px;*/
+    border-radius: 0px 17px 0px 17px;
+    opacity: 0.5;
+  }
+}
